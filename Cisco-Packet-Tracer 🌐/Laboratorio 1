@@ -1,0 +1,23 @@
+# 🌐 Prácticas de Redes y Telecomunicaciones (Cisco Packet Tracer)
+
+Bienvenido a la sección dedicada a la simulación, diseño y configuración de arquitectura de redes bajo los estándares de las certificaciones Cisco (CCST Networking / CCNA).
+
+---
+
+## 📌 Objetivos de esta sección
+* **Segmentación de Redes:** Creación de VLANs y enrutamiento Inter-VLAN.
+* **Seguridad Defensiva en Redes:** Implementación de Listas de Control de Acceso (ACLs) y seguridad en puertos de Switch (*Port Security*).
+* **Servicios de Red:** Configuración e integración de servidores DHCP, DNS, NAT y enrutamiento dinámico.
+
+---
+
+## 🗂️ Laboratorios Disponibles
+
+| Práctica | Tema Principal | Archivos / Evidencias |
+| :--- | :--- | :--- |
+| **01. Configuración de Red Doméstica** | Enrutador Inalámbrico, Direccionamiento IP y Clientes LAN | [Ver Explicación y Capturas](./01.-Cofigurar-red-dom%C3%A9stica/) |
+| **02. Segmentación con VLANs** | VLANs, Troncales 802.1Q y Control de Tráfico | *Próximamente* |
+
+---
+
+> 🛠️ **Entorno de Trabajo:** Cisco Packet Tracer 8.x | Cisco IOS (Switches Catalyst 2960 y Routers 2911).
