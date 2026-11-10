@@ -5,8 +5,8 @@ Objetivo de la Práctica: Diseñar, implementar y validar la conectividad lógic
 Entorno y Herramientas
 Simulador: Cisco Packet Tracer.
 Dispositivos de Red:
-1. Switch Cisco Catalyst 2960-24TT[cite: 17].
-2. 3x Estaciones de trabajo (PC0, PC1, PC2)[cite: 17].
+1. Switch Cisco Catalyst 2960-24TT.
+2. 3 PC (PC0, PC1, PC2).
 ---
 Esquema de Direccionamiento IP
 
@@ -19,14 +19,15 @@ Esquema de Direccionamiento IP
 ---
 
 Pasos de Implementación
-1. **Despliegue de Topología:** Colocación de los equipos de cómputo y el Switch central, interconectándolos mediante cables de tipo par trenzado directo (*Copper Straight-Through*).
-2. **Configuración de Interfaces:** Asignación manual de las direcciones IP estáticas y la máscara de subred en la configuración de escritorio de cada PC (`Desktop > IP Configuration`)[cite: 17].
-3. **Validación de Conectividad (Pruebas ICMP):** Ejecución del comando `ping` desde el símbolo del sistema (*Command Prompt*) de la PC0 hacia el resto de los nodos para verificar el éxito de la transmisión de paquetes.
+1. Despliegue de Topología: Colocación de los equipos de cómputo y el Switch central, interconectándolos mediante cables de tipo par trenzado directo (*Copper Straight-Through*).
+2. Configuración de Interfaces: Asignación manual de las direcciones IP estáticas y la máscara de subred en la configuración de escritorio de cada PC (`Desktop > IP Configuration`).
+3. Validación de Conectividad (Pruebas ICMP):Ejecución del comando `ping` desde el símbolo del sistema (*Command Prompt*) de la PC0 hacia el resto de los nodos para verificar el éxito de la transmisión de paquetes.
 
 ---
 
+
 ## 📸 5. Evidencia Visual
-![Topologia LAN Estatica](captura-topologia.png)
+![Topologia LAN Estatica](<img width="1366" height="713" alt="Red Lan Estatica" src="https://github.com/user-attachments/assets/07c261b4-de4e-4d18-82c2-ae219dc6a0c6" />)
 > *Figura 1: Topología lógica operando correctamente con los enlaces activos (indicadores en verde) y las direcciones IP visibles.*
 
 ---
