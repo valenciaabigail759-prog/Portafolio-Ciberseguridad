@@ -25,13 +25,11 @@ Pasos de Implementación
 
 ---
 
-
-## 📸 5. Evidencia Visual
-![Topologia LAN Estatica] <img width="1366" height="713" alt="Red Lan Estatica" src="https://github.com/user-attachments/assets/07c261b4-de4e-4d18-82c2-ae219dc6a0c6" />
-> *Figura 1: Topología lógica operando correctamente con los enlaces activos (indicadores en verde) y las direcciones IP visibles.*
+Evidencia Visual
+[Topologia LAN Estatica] <img width="1366" height="713" alt="Red Lan Estatica" src="https://github.com/user-attachments/assets/07c261b4-de4e-4d18-82c2-ae219dc6a0c6" />
+> Figura 1: Topología lógica operando correctamente con los enlaces activos (indicadores en verde) y las direcciones IP visibles.*
 
 ---
-
-## 💡 6. Conclusión y Análisis Técnico
-* **Dominio de Difusión:** Al encontrarse todos los equipos dentro del mismo segmento de red (`192.168.1.0/24`), las tramas viajan de manera directa a través del Switch de Capa 2 sin requerir un enrutador (Router).
-* **Fundamento de Ciberseguridad:** Comprender cómo interactúan los hosts en una misma LAN mediante solicitudes ARP y pings es el punto de partida fundamental para identificar flujos de red legítimos y detectar posibles anomalías o ataques de suplantación en entornos corporativos[cite: 18, 20].
+Conclusión y Análisis Técnico
+Dominio de Difusión: Al encontrarse todos los equipos dentro del mismo segmento de red (`192.168.1.0/24`), las tramas viajan de manera directa a través del Switch de Capa 2 sin requerir un enrutador (Router).
+Fundamento de Ciberseguridad:Comprender cómo interactúan los hosts en una misma LAN mediante solicitudes ARP y pings es el punto de partida fundamental para identificar flujos de red legítimos y detectar posibles anomalías o ataques de suplantación en entornos corporativos.
