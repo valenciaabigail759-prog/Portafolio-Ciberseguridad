@@ -2,26 +2,23 @@ Laboratorio 01 Configuración de Red LAN y Direccionamiento IP Estático
 
 Objetivo de la Práctica: Diseñar, implementar y validar la conectividad lógica de una Red de Área Local (LAN) simple mediante la asignación estática de direcciones IPv4 y máscaras de subred, asegurando la comunicación entre múltiples dispositivos finales a través de un Switch de capa 2.
 
-🛠️ 2. Entorno y Herramientas
-* **Simulador:** Cisco Packet Tracer[cite: 9, 18].
-* **Dispositivos de Red:** 
-  * 1x Switch Cisco Catalyst 2960-24TT[cite: 17].
-  * 3x Estaciones de trabajo (PC0, PC1, PC2)[cite: 17].
-* **Protocolos:** Ethernet, IPv4, ICMP, ARP[cite: 20].
-
+Entorno y Herramientas
+Simulador: Cisco Packet Tracer.
+Dispositivos de Red:
+1. Switch Cisco Catalyst 2960-24TT[cite: 17].
+2. 3x Estaciones de trabajo (PC0, PC1, PC2)[cite: 17].
 ---
-
-## 📊 3. Esquema de Direccionamiento IP
+Esquema de Direccionamiento IP
 
 | Dispositivo | Dirección IP | Máscara de Subred | Gateway Predeterminado |
 | :--- | :--- | :--- | :--- |
-| **PC0** | `192.168.1.10` | `255.255.255.0` | `192.168.1.1`[cite: 17] |
-| **PC1** | `192.168.1.11` | `255.255.255.0` | `192.168.1.1`[cite: 17] |
-| **PC2** | `192.168.1.12` | `255.255.255.0` | `192.168.1.1`[cite: 17] |
+| **PC0** | `192.168.1.10` | `255.255.255.0` | `192.168.1.1` |
+| **PC1** | `192.168.1.11` | `255.255.255.0` | `192.168.1.1` |
+| **PC2** | `192.168.1.12` | `255.255.255.0` | `192.168.1.1` |
 
 ---
 
-## ⚙️ 4. Pasos de Implementación
+Pasos de Implementación
 1. **Despliegue de Topología:** Colocación de los equipos de cómputo y el Switch central, interconectándolos mediante cables de tipo par trenzado directo (*Copper Straight-Through*).
 2. **Configuración de Interfaces:** Asignación manual de las direcciones IP estáticas y la máscara de subred en la configuración de escritorio de cada PC (`Desktop > IP Configuration`)[cite: 17].
 3. **Validación de Conectividad (Pruebas ICMP):** Ejecución del comando `ping` desde el símbolo del sistema (*Command Prompt*) de la PC0 hacia el resto de los nodos para verificar el éxito de la transmisión de paquetes.
