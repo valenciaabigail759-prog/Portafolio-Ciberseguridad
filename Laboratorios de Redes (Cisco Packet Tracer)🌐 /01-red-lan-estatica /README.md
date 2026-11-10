@@ -27,7 +27,7 @@ Pasos de Implementación
 
 
 ## 📸 5. Evidencia Visual
-![Topologia LAN Estatica](<img width="1366" height="713" alt="Red Lan Estatica" src="https://github.com/user-attachments/assets/07c261b4-de4e-4d18-82c2-ae219dc6a0c6" />)
+![Topologia LAN Estatica] <img width="1366" height="713" alt="Red Lan Estatica" src="https://github.com/user-attachments/assets/07c261b4-de4e-4d18-82c2-ae219dc6a0c6" />
 > *Figura 1: Topología lógica operando correctamente con los enlaces activos (indicadores en verde) y las direcciones IP visibles.*
 
 ---
